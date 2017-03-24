@@ -1,9 +1,10 @@
 
 @keyframes colourchange {
-    0%   {background-color: #00c8ff; left: 0px; right: 0px;}
-    25%  {background-color: #009dff; left: 100px; right: 200px;}
-    50%  {background-color: #0033ff; left: 100px; right: 300px;}
-    100% {background-color: #008cff; left: 0px; right: 200px;}
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
 }
 
 div {
