@@ -1,16 +1,18 @@
 
 @keyframes example {
-    0%   {background-color: red;}
-    25%  {background-color: yellow;}
-    50%  {background-color: blue;}
-    100% {background-color: green;}
+    0%   {background-color: #00c8ff;}
+    25%  {background-color: #009dff;}
+    50%  {background-color: #0033ff;}
+    100% {background-color: #008cff;}
 }
 
 div {
     border-radius: 25px;
     width: 100px;
     height: 100px;
+    padding: 20px;
     background-color: red;
     animation-name: example;
     animation-duration: 4s;
+    animation-iteration-count: infinite;
 }
