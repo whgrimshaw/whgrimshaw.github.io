@@ -1,5 +1,5 @@
 
-@keyframes example {
+@keyframes colourchange {
     0%   {background-color: #00c8ff;}
     25%  {background-color: #009dff;}
     50%  {background-color: #0033ff;}
@@ -7,12 +7,10 @@
 }
 
 div {
-    border-radius: 100px;
+    border-radius: 1000px;
     width: 100px;
     height: 100px;
     padding: 20px;
     background-color: red;
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
+    animation: colourchange 5s linear 2s infinite alternate;
 }
