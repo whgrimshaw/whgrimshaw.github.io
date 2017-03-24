@@ -11,5 +11,5 @@ div {
     width: 100px;
     height: 100px;
     padding: 20px;
-    animation: colourchange 5s;
+    animation: colourchange 5s linear 2s infinite alternate;
 }
