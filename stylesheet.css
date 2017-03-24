@@ -13,4 +13,5 @@ div {
     height: 100px;
     padding: 20px;
     animation: colourchange 5s linear 2s infinite alternate;
+    position: relative
 }
