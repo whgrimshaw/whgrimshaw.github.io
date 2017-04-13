@@ -26,3 +26,9 @@
 	transform: scale(10,10);
 	opacity:1;	
 }
+
+div{
+	font-size:20px;
+	position: relative;
+	margin: auto;
+}
