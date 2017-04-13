@@ -1,17 +1,24 @@
 
-@keyframes colourchange {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    50%  {background-color:blue; left:200px; top:200px;}
-    75%  {background-color:green; left:200px; top:200px;}
-    100% {background-color:red; left:0px; top:0px;}
+
+.body{
+	background-color:black;
+}
+.paige{
+	position: relative;
+	display: block;
+	margin: auto;
 }
 
-div {
-    border-radius: 1000px;
-    width: 100px;
-    height: 100px;
-    padding: 20px;
-    animation: colourchange 5s linear 2s infinite;
-    position: relative;
+.lips{
+	position: absolute;
+	top: 28%; left: 50%;
+	margin: 0;
+	transition:transform 0.5s, opacity 0.2s;
+	width:20px;
+	height:20px;
+	opacity:0;
+}
+.lips:hover{
+	transform: scale(10,10);
+	opacity:1;	
 }
