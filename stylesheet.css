@@ -11,24 +11,24 @@
 
 .lips{
 	position: absolute;
-	top: 28%; left: 50%;
+	top: 23%; left: 47%;
 	margin: 0;
-	transition:transform 0.5s, opacity 0.2s;
-	width:20px;
-	height:20px;
+	transition:transform 1s, opacity 0.2s;
+	width:100px;
+	height:100px;
 	opacity:0;
 }
 .lips:hover{
-	transform: scale(10,10);
+	transform: scale(2,2);
 	opacity:1;	
 }
 .lips:active{
-	transform: scale(10,10);
+	transform: scale(2,2);
 	opacity:1;	
 }
 
 div{
 	font-size:20px;
-	position: relative;
-	margin: auto;
+	font-family:Trebuchet MS;
+	text-align:center;
 }
