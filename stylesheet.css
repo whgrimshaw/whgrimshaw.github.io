@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body{
 	background:linear-gradient(#252628,#35373a);
 	padding:None;
@@ -46,39 +46,3 @@ a:hover{
 	left:0px;
 	bottom:0vh;
 }
-=======
-
-
-.body{
-	background-color:black;
-}
-.paige{
-	position: relative;
-	display: block;
-	margin: auto;
-}
-
-.lips{
-	position: absolute;
-	top: 23%; left: 47%;
-	margin: 0;
-	transition:transform 1s, opacity 0.2s;
-	width:100px;
-	height:100px;
-	opacity:0;
-}
-.lips:hover{
-	transform: scale(2,2);
-	opacity:1;	
-}
-.lips:active{
-	transform: scale(2,2);
-	opacity:1;	
-}
-
-div{
-	font-size:20px;
-	font-family:Trebuchet MS;
-	text-align:center;
-}
->>>>>>> origin/master
