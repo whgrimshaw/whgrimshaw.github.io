@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/grimi
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://whgrimshaw.github.io
+  * I am grimi (https://keybase.io/grimi) on keybase.
+  * I have a public key with fingerprint E254 782D AE9A D9EA F146  6978 CE08 AF77 AF72 387E
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101e3f1c5ef2c63f4c15f6b02081dda170d8d080f67d64db6f4a12d6a04f4ac423a0a",
+            "fingerprint": "e254782dae9ad9eaf1466978ce08af77af72387e",
+            "host": "keybase.io",
+            "key_id": "ce08af77af72387e",
+            "kid": "0101e3f1c5ef2c63f4c15f6b02081dda170d8d080f67d64db6f4a12d6a04f4ac423a0a",
+            "uid": "aa01d73fdf126b4b6ca421e5117d5e19",
+            "username": "grimi"
+        },
+        "service": {
+            "hostname": "whgrimshaw.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1494440674,
+    "expire_in": 157680000,
+    "prev": "38b0b9fefe1c4e649b9f3b79028d20119cbb6a03943b41f16145d153de63d632",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.70
+Comment: https://keybase.io/crypto
+
+yMIoAnicrVJJaBRBFJ0xJiFjAq6IggutCCPJWNVdXd097iKIAZGIBxVNW91VPVOa
+TI8zPTMOQYQc9KSooBG3GFeCuCEJuCDG5JCYqAFXxIgrKoLbIS64VUe9ebSgqPq/
+3nv1/ud3lBUEQsGC3h7NUcYuDHa37csElo9Y8bROslyal6J10lo2cLAaytKeuZZT
+KSoBCCBTHGirzJFtrDjIhqqDLSADHVJKoAaoToEOHKxRjKiFHUSgTDEBSNxsJCsE
+EKlccngixlLJFE94QpbJKtJ0mRJmEGow4kCEsaHpNgM6cTRNbFnRNSaIcTftM4Q5
+i6RZhLsiJwJzwN4/8P/Zd2ZAjhAAqaY41IEytpCFbYJkyFQINaoyaPjANEslSC0T
+6FiK13JpQ7kkUlluM7+rfhl/nnNxH5COk1wkxr14xvpdVDLleq7t1ghE3POS6aiv
+4OWTAxRmmX/ETIsnqGimYGRZKs3dhBSFAml73FeHyEAIAayhcomtT/IUM7mPUDWs
+A7H8f1hWSCq6BSzDYQ6DNmIYGSJQLM0Ask5lAKFhW5bohmIgxULQgRgilUJVoQwr
+FCuy5Je3LuFKUSxskpiQTPNYgniZFJM2XL2ycnAgGAoUFQ7yhywQKhn6d/SmRop/
+MmX1465IVc+Xsp2njjRMzofPz/083gjfaApUv5v1AQcDfW3mtopHnxa/7p/d1VXy
+bNSqloPn1owvHJeZ8rFa99pv51e8G95SNXpe9vq0Zd0T2etHI1rPLLv+OFzbMjz4
+KjPn6MP2zqK+8MvLBRebDyzJN+UOV4YvlX7/WpUbU7rgbO/I72Zgx8xt7vHW2AJ1
+wvph5Ur2R/XZyOn2PY2Fm7tg6Fpdx8Idk3af728MOVPebir91Hno283Wbw2czKmz
+Tuya3hw7Ovne0v0zHtyvr6J36nFhTfHeJxf4c6Nob27rMXfTldEztrxpPdlUsYg3
+3+rdfqF+yEZw16ysOPbixPv++WbT0l8QE0Hy
+=HRBf
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/grimi
+
+==================================================================
