@@ -1,13 +1,4 @@
 
-body{
-	background:linear-gradient(#252628,#35373a);
-	padding:None;
-}
-div{
-	font-family:courier;
-	color:white;
-	font-size:5vh;
-}
 a{
 	text-decoration:none;
 	color:white;
@@ -19,22 +10,70 @@ a:hover{
 	color:grey;
 	text-decoration-style: dashed;
 }
-.links{
-	position:absolute;
-	top:50vh; left:50vw;
+@keyframes rollinghills{
+  0%{transform:rotate(45deg);left:30%;}
+  100%{transform:rotate(405deg);left:0%;}
+}
+@keyframes bobbingclouds{
+  0%{top:50%;left:50%;}
+  50%{top:55%;left:48%;}
+  100%{top:50%;left:50%;}
 }
 
-.Logo{
-	color:#35373a;
-	font-family:Trebuchet MS;
-	position:absolute;
-	top:50vh;
-	left:40vw;
-	height:auto;
-	width:auto;
-	font-size:40vh;
+body{
+  background:#4f8aff;
+  overflow:hidden;
+}
+.hill{
+  position:absolute;
+  top:76%;left:4%;
+  width:750px;
+  height:750px;
+  border-radius:300px;
+  background:linear-gradient(green,#2b8c0e);
+  transform:rotate(45deg);
+  animation: rollinghills 50s linear infinite alternate;
+  filter:blur(10px);
+}
+.cloud{
+  position:absolute;
+  top:50%;left:50%;
+  text-align:center;
+  font-family:Trebuchet MS;
+  transition: transform 2s, filter 2s;
+  filter:blur(6px);
+  opacity:0.75;
+  animation: bobbingclouds 5s linear 2s infinite;
+}
+.cloud:hover{
+  filter:none;
+  transform:scale(2.5,2.5)
 }
 
+.bubble1{
+  position:relative;
+  left:40%;top:10%;
+  width:50px;
+  height:50px;
+  background:linear-gradient(white,grey);
+  border-radius:50px;
+}
+.bubble2{
+  position:relative;
+  left:25%;top:-30%;
+  width:70px;
+  height:80px;
+  background:linear-gradient(white,grey);
+  border-radius:50px;
+}
+.name{
+  position:absolute;
+  top:50%;left:50%;
+  text-align:center;
+  font-family:Trebuchet MS;
+  font-size:10px;
+  color:white;
+}
 .bottombar{
 	padding-right:5px;
 	border-top-right-radius: 5px;
